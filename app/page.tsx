@@ -15,7 +15,7 @@ export default async function Home() {
       <Slider movies={popularMovies} />
       <Section titleSection="Horror Movies" shows={horrorMovies} />
       <Section titleSection="Animation Movies" shows={animationMovies} />
-      <Section titleSection="Trending Tv Series" shows={trendingTvSeries} />
+       <Section titleSection="Trending Tv Series" shows={trendingTvSeries} />
       <Section titleSection="Anime" shows={animeTvSeries} />
       <Section titleSection="Drama" shows={dramaTVSeries} />
       <div className="h-[50px]"/>
